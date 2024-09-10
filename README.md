@@ -44,3 +44,7 @@ Para especificar uma porta e/ou nome diferente, use:
 Você pode aprender mais na [documentação do Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
 
 Para aprender React, confira a [documentação do React](https://reactjs.org/).
+
+Sobre o Framework visual: [Bootstrap 5](https://getbootstrap.com/).
+
+Sobre o Pack de icones: [Remix Icon](https://remixicon.com/).
