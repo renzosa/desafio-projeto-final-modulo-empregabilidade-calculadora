@@ -156,23 +156,23 @@ function App() {
             <button className='memory-button' onClick={memoryAdd}>M+</button>
             <button className='memory-button' onClick={memorySubtract}>M-</button>
 
-            <button onClick={() => adicionarOperacao('%')}><i class="ri-percent-line"></i></button>
-            <button onClick={() => adicionarOperacao('√')}><i class="ri-square-root"></i></button>
+            <button className='danger span-2' onClick={() => limpar()}><i class="ri-refresh-line"></i></button>
             <button className='secondary span-2' onClick={() => apagarUltimoDigito()}><i className="ri-delete-back-2-line"></i></button>
 
-            <button className='danger' onClick={() => limpar()}><i class="ri-refresh-line"></i></button>
+            <button onClick={() => adicionarOperacao('%')}><i class="ri-percent-line"></i></button>
+            <button onClick={() => adicionarOperacao('√')}><i class="ri-square-root"></i></button>
             <button onClick={() => adicionarOperacao('÷')}><i class="ri-divide-line"></i></button>
             <button onClick={() => adicionarOperacao('×')}><i class="ri-asterisk"></i></button>
-            <button onClick={() => adicionarOperacao('-')}><i class="ri-subtract-line"></i></button>
 
             <button onClick={() => adicionarDigito('7')}><i class="ri-number-7"></i></button>
             <button onClick={() => adicionarDigito('8')}><i class="ri-number-8"></i></button>
             <button onClick={() => adicionarDigito('9')}><i class="ri-number-9"></i></button>
-            <button className='span-2-vert' onClick={() => adicionarOperacao('+')}><i class="ri-add-line"></i></button>
+            <button onClick={() => adicionarOperacao('-')}><i class="ri-subtract-line"></i></button>
 
             <button onClick={() => adicionarDigito('4')}><i class="ri-number-4"></i></button>
             <button onClick={() => adicionarDigito('5')}><i class="ri-number-5"></i></button>
             <button onClick={() => adicionarDigito('6')}><i class="ri-number-6"></i></button>
+            <button onClick={() => adicionarOperacao('+')}><i class="ri-add-line"></i></button>
 
             <button onClick={() => adicionarDigito('1')}><i class="ri-number-1"></i></button>
             <button onClick={() => adicionarDigito('2')}><i class="ri-number-2"></i></button>
