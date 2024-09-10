@@ -140,7 +140,7 @@ function App() {
   return (
     <div className="container calculator-app">
       <div class="container-header">
-        <h1><i class="ri-calculator-fill"></i> Renzo | myCalc</h1>
+        <h1><i class="ri-calculator-fill"></i> Renzo | myCalculator</h1>
       </div>
       <div className="calculator-container">
         <div className="calculator">
